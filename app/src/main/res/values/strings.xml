@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">PRJ_1_1505005</string>
+
+    <!-- Common Buttons -->
+    <string name="positive_button">OK</string>
+    <string name="negative_button">Cancel</string>
+
+    <!-- Login Activity Strings-->
+    <string name="prompt_login_user_name"> Enter User Name</string>
+    <string name="prompt_login_password"> Enter password</string>
+    <string name="login_button">Login</string>
+    <string name="login_title">Login</string>
+    <string name="login_back_press_message">Do you want to exit the application?</string>
+    <string name="login_fail">Try again.</string>
+    <string name="login_registration_button">Registration</string>
+
+    <!-- Registration strings-->
+    <string name="registration_title">Registration</string>
+    <string name="registration_back_press_message">Do you want to go to the login page?</string>
+    <string name="registration_fail">Try again or login.</string>
+    <string name="enter_username_text">Enter name:</string>
+    <string name="enter_user_password_text">Enter password:</string>
+    <string name="enter_user_phone_text">Enter phone:</string>
+    <string name="enter_user_country_text">Enter country:</string>
+    <string name="enter_user_display_name_text">Enter display name:</string>
+    <string name="registration_button">Registration</string>
+    <string name="registration_input_exception_message">Enter all information correctly.</string>
+
+    <!-- Post List Activity strings-->
+    <string name="post_list_screen_toolbar_title">Posts</string>
+    <string name="post_list_back_press_message">Do you want to log out?</string>
+    <string name="account_information_menu">Account Information</string>
+    <string name="add_post_menu">[+] Add Post</string>
+    <string name="log_out_menu">[-> Log out</string>
+    <string name="delete_post_alert_title">[X] Delete Confirmation</string>
+    <string name="delete_post_alert_message">Are you sure to delete selected post?</string>
+
+    <!-- Add Post Activity strings-->
+    <string name="add_post_title">Add Post </string>
+    <string name="add_post_back_press_message">Do you want to go to the Posts page?</string>
+    <string name="add_post_error_title">Add Post Fail</string>
+    <string name="add_post_error_message">Enter your title and text for save post.</string>
+    <string name="tv_text_title">Enter title of your post: </string>
+    <string name="tv_text_text">Enter text of your post: </string>
+    <string name="edt_hint_text_title">Title</string>
+    <string name="edt_hint_text_text">Text</string>
+    <string name="btn_turning_post_list_activity">Turn Posts</string>
+    <string name="btn_save_post">[+] Save Post</string>
+
+    <!-- Account Information Activity strings-->
+    <string name="change_password_title"> Change Password </string>
+    <string name="change_password_back_press_message">Do you want to go to the Posts page?</string>
+    <string name="change_password_error_title"> Change Password Fail </string>
+    <string name="change_password_error_message"> Try again!!! </string>
+    <string name="btn_turning_post_list_activity_account_information"> Turn Posts </string>
+    <string name="tv_user_id_text"> ID: </string>
+    <string name="tv_user_dn_text"> Display Name: </string>
+    <string name="tv_user_un_text"> Username: </string>
+    <string name="tv_user_student_hash_text"> Student Hash: </string>
+    <string name="tv_user_phone_text"> Phone: </string>
+    <string name="tv_user_country_text"> Country: </string>
+    <string name="tv_user_pw_text"> Password: </string>
+    <string name="tv_user_change_pw_text"> Change Password </string>
+    <string name="edt_user_change_pw_text"> New Password: </string>
+    <string name="edt_user_change_pw_hint"> Enter password </string>
+    <string name="btn_change_password_text">Change Password</string>
+
+</resources>

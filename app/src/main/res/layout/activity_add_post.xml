@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/layout_background_color"
+    tools:context=".AddPostActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_turning_post_list_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@color/layout_background_third_color"
+            android:text="@string/btn_turning_post_list_activity"
+            android:textColor="@color/layout_selected_text_color"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@android:color/darker_gray" />
+        <Button
+            android:id="@+id/btn_save_post"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@color/layout_background_third_color"
+            android:text="@string/btn_save_post"
+            android:textColor="@color/layout_selected_text_color"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray" />
+    <TextView
+        android:id="@+id/tv_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/tv_text_title"
+        android:textColor="@color/layout_selected_text_color"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/edt_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/edt_hint_text_title"
+        android:textColorHint="@color/white"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollHorizontally="false"
+        android:gravity="top|left"
+        android:textColor="@color/layout_text_color"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+    <TextView
+        android:id="@+id/tv_text_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/tv_text_text"
+        android:textColor="@color/layout_selected_text_color"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/edt_text_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/edt_hint_text_text"
+        android:textColorHint="@color/white"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollHorizontally="false"
+        android:gravity="top|left"
+        android:textColor="@color/layout_text_color"
+        android:textSize="18sp" />
+</LinearLayout>
